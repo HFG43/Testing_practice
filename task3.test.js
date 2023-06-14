@@ -16,7 +16,6 @@ describe('Calculator', () => {
     });
   });
 
-
 describe('Calculator substracts', () => {
   const calculator = new Calculator();
 
@@ -33,3 +32,35 @@ describe('Calculator substracts', () => {
   });
 });
 
+describe('Calculator divides', () => {
+    const calculator = new Calculator();
+  
+    test('correctly divides fractions numbers', () => {
+        expect(calculator.divide(1.5,3)).toBe(0.5);
+    });
+    
+    test('correctly diveds correctly for zero divisor', () => {
+        expect(calculator.divide(10,0)).toBeNull();
+    });
+  
+    test('correctly divides negative numbers', () => {
+        expect(calculator.divide(-25,-5)).toBe(5);
+    });
+
+});
+
+describe('Calculator multiplies', () => {
+    const calculator = new Calculator();
+      
+    test('correctly multiply fractions numbers', () => {
+        expect(calculator.multiply(1.5,4)).toBe(6);
+    });
+        
+    test('correctly multiplies correctly for zero', () => {
+        expect(calculator.multiply(10,0)).toBe(0);
+    });
+      
+    test('correctly multiply negative numbers', () => {
+        expect(calculator.multiply(-25,-5)).toBe(125);
+    });
+});
