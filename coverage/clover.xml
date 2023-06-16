@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686762243869" clover="3.2.0">
-  <project timestamp="1686762243870" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9" elements="26" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="1" files="2" classes="2"/>
+<coverage generated="1686918227072" clover="3.2.0">
+  <project timestamp="1686918227072" name="All files">
+    <metrics statements="27" coveredstatements="27" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="40" coveredelements="40" complexity="0" loc="27" ncloc="27" packages="1" files="4" classes="4"/>
     <file name="task1.js" path="C:\Users\Usuario\Desktop\Programing\Microverse\Modul_2\week_3\Pair Programing\Testing_practice\task1.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="2" type="stmt"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="task2.js" path="C:\Users\Usuario\Desktop\Programing\Microverse\Modul_2\week_3\Pair Programing\Testing_practice\task2.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="task3.js" path="C:\Users\Usuario\Desktop\Programing\Microverse\Modul_2\week_3\Pair Programing\Testing_practice\task3.js">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
@@ -22,6 +31,15 @@
       <line num="21" count="4" type="stmt"/>
       <line num="22" count="3" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
+    </file>
+    <file name="task4.js" path="C:\Users\Usuario\Desktop\Programing\Microverse\Modul_2\week_3\Pair Programing\Testing_practice\task4.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

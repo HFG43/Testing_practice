@@ -1,7 +1,7 @@
-const stringLength = require('./task1');
+const reverseString = require('./task2');
 
-test('count the string elemnts', () => {
-    expect(stringLength("Hello")).toBe(5);
+test('Receive the string elements reversed', () => {
+    expect(reverseString("Hello")).toMatch("olleH");
 })
 
 
